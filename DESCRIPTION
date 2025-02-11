@@ -1,0 +1,14 @@
+Package: testpkgA
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: person("W. Jake", "Thompson", email = "wjakethompson@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-7339-0300"))
+Description: More about what it does (maybe more than one line).
+    Continuation lines should be indented.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    rlang,
+    S7
+RoxygenNote: 7.3.2
