@@ -1,9 +1,7 @@
 #' S7 class for measurement models
 #'
-#' @param model The type of measurement model to be used. Must be one of
-#'   `r print_choices(meas_choices())`.
-#' @param model_args A named list of arguments to be passed on to the
-#'   corresponding `meas_*()` function.
+#' @param model The type of model estimated.
+#' @param model_args A named list of additional arguments.
 #'
 #' @noRd
 pkga_fit <- S7::new_class("pkga_fit", package = "testpkgA",
